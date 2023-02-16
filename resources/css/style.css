@@ -1,0 +1,10 @@
+.bg{
+  width: 100px;
+  height: 100px;
+  color: brown;
+  border-radius: 10px;
+}
+
+body{
+    background-color: chartreuse;
+}
