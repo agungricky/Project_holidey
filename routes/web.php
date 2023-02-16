@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
-
+use App\Http\Controllers\userController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,3 +32,20 @@ Route::redirect('about', 'about_sementara');
 
 
 Route::get('/user', [UserController::class, 'index']);
+Route::get('ika', function () {
+    return 'ika cantik';
+});
+
+Route::view('i', 'welcome');
+
+Route::get('/admin', [userController::class, 'index']);
+
+Route::redirect('home', 'home_sementara');
+
+Route::get('product/{id}', function ($id) {
+    return 'anda membuka product' . $id;
+});
+
+Route::get('product/{id}', function ($id) {
+    return view('landingpage.akun', ['id' > $id]);
+});
