@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('LandingPage', [LpController::class, 'index']);
+// Route::get('LandingPage', [LpController::class, 'index']);
 
-Route::view('materi', 'Lp.landing');
+Route::view('LandingPage', 'Lp.landingPage');
+Route::view('LandingPage', 'LP.akun');
+// Route::view('LandingPage', 'LP.form_register');
+
+// Route::get('TambahAkun', function () {
+//     return view('Lp.form_register');
+// });

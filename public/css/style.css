@@ -24,6 +24,7 @@ img {
 }
 
 .row .kata-kata {
+  height: 45px;
   background-color: #253F2C;
   border-radius: 30px;
   font-size: 20px;
