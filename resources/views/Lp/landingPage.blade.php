@@ -44,6 +44,7 @@
         </div>
     </div>
 
+    <script src="https://kit.fontawesome.com/5b3710b119.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://kit.fontawesome.com/5b3710b119.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
