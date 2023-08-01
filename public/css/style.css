@@ -58,6 +58,20 @@ img {
   margin: auto
 }
 
+#register .akun-register {
+  width: 45%;
+  margin: auto
+}
+
+#register img {
+  width: 30px;
+}
+
+#register a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 400px) and (max-width:600px) {
 
   #row-logo,
