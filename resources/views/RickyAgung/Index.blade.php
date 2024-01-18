@@ -52,7 +52,7 @@
             list-style: none;
             margin: 0;
             padding: 0;
-            display: flex; 
+            display: flex;
         }
 
         li {
@@ -82,10 +82,10 @@
         }
 
         .sosial_media i {
-          font-size: 25px; 
+          font-size: 25px;
           color: #ffffff;
-          margin-right: 15px; 
-          background-color: rgba(255, 255, 255, 0.5); 
+          margin-right: 15px;
+          background-color: rgba(255, 255, 255, 0.5);
           padding: 30px 25px;
         }
     </style>
@@ -104,10 +104,10 @@
                     <li><a href="">Resume</a></li>
                     <li><a href="">myProject</a></li>
                     <li><a href="">Portofolio</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="aris">Contact</a></li>
                 </ul>
             </nav>
-            
+
             <div class="sosial_media">
                 <a href="https://www.instagram.com/ricky_story00/"><i class="fa-brands fa-instagram fa-sm rounded-circle"></i></a>
                 <a href="https://web.facebook.com/mbokeng.mamio/"><i class="fa-brands fa-facebook-f fa-sm rounded-circle"></i></a>
