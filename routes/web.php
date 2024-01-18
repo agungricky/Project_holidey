@@ -22,3 +22,4 @@ Route::get('/', function () {
 Route::view('LandingPage', 'Lp.landingPage');
 Route::view('LandingPage', 'LP.akun');
 Route::view('Ricky', 'RickyAgung.index');
+Route::view('aris', 'aris.index');
