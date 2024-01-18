@@ -105,6 +105,7 @@
                     <li><a href="">myProject</a></li>
                     <li><a href="">Portofolio</a></li>
                     <li><a href="aris">Contact</a></li>
+                    <li><a href="">About Me</a></li>
                 </ul>
             </nav>
 
